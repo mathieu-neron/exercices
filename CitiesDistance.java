@@ -1,7 +1,7 @@
 public class CitiesDistance {
 
-  // A.length = X.length
   // A[i]: fuel at the Ith city, X[i]: distance at the Ith city
+  // A.length = X.length
   // Car starts with 0 fuel and can fill up at whichever city we start in (unlimited fuel capacity)
   // return max number of cities that can be visited.
   // We can go from city 1 to city 2 if the absolute distance between the two is <= the current amount of fuel we have
