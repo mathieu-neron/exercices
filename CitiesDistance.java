@@ -86,7 +86,7 @@ public class CitiesDistance {
     return from.currentFuel - Math.abs(to.distance - from.currentCity.distance) + to.fuel;
   }
 
-  // *naive* implementation, has a bad runtime, since we check for all the possibilities in a bruteforce manner.
+  // *naive* implementation. Has a bad runtime, since we check for all the possibilities in a bruteforce manner recursively.
   public int solutionRecursive(int[] A, int[] X) {
     int n = A.length;
     Set<City> cities = new HashSet<>();
